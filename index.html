@@ -42,7 +42,7 @@
 <!-- header -->
 <header id="default_header" class="header_style_1">
   <!-- header top -->
-  <div class="header_top">
+  <div class="header_top" id="header_top">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
@@ -81,7 +81,7 @@
       <div class="row">
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
           <!-- logo start -->
-          <div class="logo"> <a href="it_home.html"><img src="images/logos/Cybersec logo.png" alt="logo" /></a> </div>
+          <div class="logo"> <a href="#header_style_1"><img src="images/logos/Cybersec logo.png" alt="logo"/></a> </div>
           <!-- logo end -->
         </div>
         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
@@ -89,49 +89,12 @@
           <div class="menu_side">
             <div id="navbar_menu">
               <ul class="first-ul">
-                <li> <a class="active" href="it_home.html">Home</a>
-                  <ul>
-                    <li><a href="it_home.html">It Home Page</a></li>
-                    <li><a href="it_home_dark.html">It Dark Home Page</a></li>
-                  </ul>
+                <li> <a class="active" href="#header_style_1">Home</a>
                 </li>
-                <li><a href="it_about.html">About Us</a></li>
-                <li> <a href="it_service.html">Service</a>
-                  <ul>
-                    <li><a href="it_service_list.html">Services list</a></li>
-                    <li><a href="it_service_detail.html">Services Detail</a></li>
-                  </ul>
-                </li>
-                <li> <a href="it_blog.html">Blog</a>
-                  <ul>
-                    <li><a href="it_blog.html">Blog List</a></li>
-                    <li><a href="it_blog_grid.html">Blog Grid</a></li>
-                    <li><a href="it_blog_detail.html">Blog Detail</a></li>
-                  </ul>
-                </li>
-                <li> <a href="#">Pages</a>
-                  <ul>
-                    <li><a href="it_career.html">Career</a></li>
-                    <li><a href="it_price.html">Pricing</a></li>
-                    <li><a href="it_faq.html">Faq</a></li>
-                    <li><a href="it_privacy_policy.html">Privacy Policy</a></li>
-                    <li><a href="it_error.html">Error 404</a></li>
-                  </ul>
-                </li>
-                <li> <a href="it_shop.html">Shop</a>
-                  <ul>
-                    <li><a href="it_shop.html">Shop List</a></li>
-                    <li><a href="it_shop_detail.html">Shop Detail</a></li>
-                    <li><a href="it_cart.html">Shopping Cart</a></li>
-                    <li><a href="it_checkout.html">Checkout</a></li>
-                  </ul>
-                </li>
-                <li> <a href="it_contact.html">Contact</a>
-                  <ul>
-                    <li><a href="it_contact.html">Contact Page 1</a></li>
-                    <li><a href="it_contact_2.html">Contact Page 2</a></li>
-                  </ul>
-                </li>
+                <li><a href="#porqueElegirnos">Por qué elegirnos</a></li>
+                <li> <a href="#procesoServicio">Proceso de servicio</a></li>
+                <li> <a href="#nuestrosProductos">Nuestros Productos</a></li>
+                <li> <a href="#contactenos">Contacto</a> </li>
               </ul>
             </div>
             <div class="search_icon">
@@ -139,7 +102,7 @@
                 <li><a href="#" data-toggle="modal" data-target="#search_bar"><i class="fa fa-search" aria-hidden="true"></i></a></li>
               </ul>
             </div>
-          </div>
+          </div> 
           <!-- menu end -->
         </div>
       </div>
@@ -398,8 +361,9 @@
     <div class="row">
       <div class="col-md-12">
         <div class="full">
-          <div class="main_heading text_align_center">
-            <h2>Why Choose Us</h2>
+          <a name="porqueElegirnos"></a>
+          <div class="main_heading text_align_center" >
+            <h2>Por qué elegirnos</h2>
             <p class="large">Fastest repair service with best price!</p>
           </div>
         </div>
@@ -520,8 +484,9 @@
     <div class="row">
       <div class="col-md-12">
         <div class="full">
+          <a name="procesoServicio"></a>
           <div class="main_heading text_align_left">
-            <h2>Service Process</h2>
+            <h2>PROCESO DE SERVICIO</h2>
             <p class="large">Easy and effective way to get your device repaired.</p>
           </div>
         </div>
@@ -596,8 +561,9 @@
     <div class="row">
       <div class="col-md-12">
         <div class="full">
+          <a name="nuestrosProductos"></a>
           <div class="main_heading text_align_center">
-            <h2>Our Products</h2>
+            <h2>Nuestros productos</h2>
             <p class="large">We package the products with best services to make you a happy customer.</p>
           </div>
         </div>
@@ -808,11 +774,12 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
+        <a name="contactenos"></a>
         <div class="full">
           <div class="contact_us_section">
             <div class="call_icon"> <img src="images/it_service/phone_icon.png" alt="#" /> </div>
             <div class="inner_cont">
-              <h2>REQUEST A FREE QUOTE</h2>
+              <h2>CONTACTENOS.!</h2>
               <p>Get answers and advice from people you want it from.</p>
             </div>
             <div class="button_Section_cont"> <a class="btn dark_gray_bt" href="it_contact.html">Contact us</a> </div>
