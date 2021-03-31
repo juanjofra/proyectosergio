@@ -3,3 +3,47 @@
 -------------------------------------------------------------------*/
 
 /** ADD YOUR AWESOME CODES HERE **/
+.copyrights {
+    display: flex;
+    background: #078A80;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.copyrights p {
+    color: #eee;
+    margin: 0;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+
+
+@media (min-width: 768px) {
+    .right_section_header_top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .float-left {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end !important;
+        align-items: center;
+        
+        color: #eee;
+    }
+
+    .header_top ul {
+        margin: 0;
+    }
+
+    .fa {
+        font-size: 17px;
+        color: #fff;
+    }
+    .fa::before {
+        color: #fff;
+    }
+}
